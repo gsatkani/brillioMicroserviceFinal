@@ -1,0 +1,13 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: registration-service
+
+#to make application as eureka client
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true    
+

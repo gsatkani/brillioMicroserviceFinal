@@ -1,11 +1,7 @@
-server:
-  port: 8082
 
-
-#  datasource:
-#    url: jdbc:mysql://localhost:3306/briiliomicroservice
-#    username: root
-#    password: root   
+spring:
+  application:
+    name: config-server
 
 #to make application as eureka client
 eureka:
@@ -17,4 +13,3 @@ eureka:
   instance:
     hostname: localhost
     
-
